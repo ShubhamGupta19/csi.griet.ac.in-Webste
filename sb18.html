@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title> People | CSI SB | GRIET</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+</head>
+<body>
+
+  <div class=" navbar-fixed">
+   <nav style="Height:80px"  role="navigation">
+     <div class="nav-wrapper ">
+       <!-- <a href="#!" class=" brand-logo"></a> -->
+       <a href="index.html"><img class="left hide-on-small-only" style="width:360px;padding-top:8px"src="images\logos\csi_logo.png" /></a>
+       <a href="index.html"><img class="left hide-on-med-and-up" style="width:81%;padding-top:10px"src="images\logos\csi_logo.png" /></a>
+       <ul style="padding-top:6px"class="right hide-on-med-and-down">
+         <li class="hoverable"><a href="index.html">Home</a></li>
+         <!-- <li class="hoverable"><a href="#about">About Us</a></li> -->
+         <li class="hoverable"><a href="events.html">Events</a></li>
+         <li class="hoverable"><a href="#upcoming">Student Body</a></li>
+       </ul>
+       <ul id="nav-mobile" class=" sidenav" >
+         <li ><a href="index.html">Home</a></li>
+         <!-- <li class=""><a href="#about">About Us</a></li> -->
+         <li class=""><a href="events.html">Events</a></li>
+         <li class=""><a href="#upcoming">Student Body</a></li>
+     </ul>
+     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons" style="padding-left:0px;padding-top:50%">menu</i></a>
+     </div>
+   </nav>
+  </div>
+
+  <!-- <nav class="white" role="navigation"> -->
+    <!-- <div class="nav-wrapper container"> -->
+      <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul> -->
+      <!-- <ul id="nav-mobile" class=" sidenav" >
+        <li class="hoverable"><a href="sass.html">Home</a></li>
+        <li class="hoverable"><a href="badges.html">About Us</a></li>
+        <li class="hoverable"><a href="badges.html">Events</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+    <!-- </div> -->
+  <!-- </nav> -->
+<!-- parallax starts here -->
+  <!-- <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div> -->
+
+<!-- parallax ends here -->
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.slider');
+   var instances = M.Slider.init(elems, {height:550});
+ });
+// above is for Slider
+// below is for dropdown
+ $('.dropdown-trigger').dropdown({
+    inDuration:500,
+    outDuration:500,
+    alignment:'right',
+    coverTrigger:false,
+    hover:true
+   });
+   // below is for Events
+   </script>
+   <script>
+   document.addEventListener('DOMContentLoaded', function() {
+     var elems = document.querySelectorAll('.scrollspy');
+     var instances = M.ScrollSpy.init(elems, options);
+   });
+
+   // Or with jQuery
+
+   $(document).ready(function(){
+     $('.scrollspy').scrollSpy();
+   });
+
+   </script>
+   <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, );
+  });
+</script>
+<!-- <div class="" > -->
+   <div class="col hide-on-med-and-down " style="position:fixed;left:85%;top:150px;" >
+     <ul class="section table-of-contents">
+       <li><a href="#upcoming">2018-Present</a></li>
+       <li><a href="#a2018">2017-18</a></li>
+       <li><a href="#a2017">2016-17</a></li>
+     </ul>
+   </div>
+ <!-- </div> -->
+
+<div class="container">
+  <div class="scrollspy section" id="upcoming">
+  <div class="row center">
+    <br /><h4>2018 - Present</h4><br />
+    <div class="row center">
+    <div class="col s12 m5 push-m3" >
+      <div class="card">
+        <div class="card-image  ">
+          <img class="activator" width="370px" height="420px" src="images/people/2018/md.jpeg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Dr. K. Madhavi</span>
+          <p>SB Counsellor</p>
+        </div>
+        <!-- <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+    <div class="col s12 m5" >
+      <div class="card">
+        <div class="card-image  ">
+          <img class="activator" width="370px" height="420px" src="images/people/2018/kc.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Krishna Chythanya Nagaraju</span>
+          <p>Nominee faculty</p>
+        </div>
+        <!-- <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div> -->
+      </div>
+    </div>
+    <div class="col s12 m5  push-m1" >
+        <div class="card">
+          <div class="card-image  ">
+            <img class="activator" width="370px" height="420px" src="images/people/2018/nop.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">K Soumya Priya</span>
+            <p>Nominee faculty</p>
+          </div>
+          <!-- <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="row center">
+      <div class="col s12 m5 push-m3" >
+        <div class="card">
+          <div class="card-image  ">
+            <img class="activator" width="370px" height="420px" src="images/people/2018/nop.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Sreedhar Mourya</span>
+            <p>Nominee faculty</p>
+          </div>
+          <!-- <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m5" >
+      <div class="card">
+        <div class="card-image  ">
+          <img class="activator" width="370px" height="420px" src="images/people/2018/balram.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Nenavath Balram</span>
+          <p>President</p>
+        </div>
+        <!-- <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div> -->
+      </div>
+    </div>
+    <div class="col s12 m5  push-m1" >
+        <div class="card">
+          <div class="card-image  ">
+            <img class="activator" width="370px" height="420px" src="images/people/2018/abhi.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Abhishek Bhandwalkar</span>
+            <p>Vice-President</p>
+          </div>
+          <!-- <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div> -->
+        </div>
+      </div>
+        <div class="col s12 m5" >
+          <div class="card">
+            <div class="card-image  ">
+              <img class="activator" width="370px" height="420px" src="images/people/2018/aye.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Ayesha Shaik</span>
+              <p>Secretary</p>
+            </div>
+            <!-- <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div> -->
+          </div>
+        </div>
+        <div class="col s12 m5  push-m1" >
+            <div class="card">
+              <div class="card-image  ">
+                <img class="activator" width="370px" height="420px" src="images/people/2018/tap.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">S. Tapasya</span>
+                <p>Vice-Secretary</p>
+              </div>
+              <!-- <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="col s12 m5" >
+            <div class="card">
+              <div class="card-image  ">
+                <img class="activator" width="370px" height="420px" src="images/people/2018/nop.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">G.Dhanush</span>
+                <p>Treasurer</p>
+              </div>
+              <!-- <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="col s12 m5  push-m1" >
+              <div class="card">
+                <div class="card-image  ">
+                  <img class="activator" width="370px" height="420px" src="images/people/2018/smart.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">P Sai Varun</span>
+                  <p>Vice-Treasurer</p>
+                </div>
+                <!-- <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col s12 m5" >
+              <div class="card">
+                <div class="card-image  ">
+                  <img class="activator" width="370px" height="420px" src="images/people/2018/saif.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Saif Allauddin</span>
+                  <p>Web Master</p>
+                </div>
+                <!-- <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="col s12 m5  push-m1" >
+                <div class="card">
+                  <div class="card-image  ">
+                    <img class="activator" width="370px" height="420px" src="images/people/2018/shu.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Shubham Gupta</span>
+                    <p>Web Master</p>
+                  </div>
+                  <!-- <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div> -->
+                </div>
+              </div>
+              <div class="col s12 m5" >
+                <div class="card">
+                  <div class="card-image  ">
+                    <img class="activator" width="370px" height="420px" src="images/people/2018/sairam.jpeg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Talishetti Sairam</span>
+                    <p>Marketing/Event Handler</p>
+                  </div>
+                  <!-- <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div> -->
+                </div>
+              </div>
+              <div class="col s12 m5  push-m1" >
+                  <div class="card">
+                    <div class="card-image ">
+                      <img class="activator" width="360px" height="420px" src="images/people/2018/gdp.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Gnandeep Patlolla</span>
+                      <p>Event Handler</p>
+                    </div>
+                    <!-- <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col s12 m5" >
+                  <div class="card">
+                    <div class="card-image  ">
+                      <img class="activator" width="370px" height="420px" src="images/people/2018/priya.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">B Siripriya Varma</span>
+                      <p>Marketing/Logistics</p>
+                    </div>
+                    <!-- <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col s12 m5  push-m1" >
+                    <div class="card">
+                      <div class="card-image  ">
+                        <img class="activator" width="370px" height="420px" src="images/people/2018/swat.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">P. Swathi</span>
+                        <p>Marketing</p>
+                      </div>
+                      <!-- <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="col s12 m5" >
+                    <div class="card">
+                      <div class="card-image  ">
+                        <img class="activator" width="370px" height="420px" src="images/people/2018/nihal.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">M. Nihal</span>
+                        <p>Marketing</p>
+                      </div>
+                      <!-- <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="col s12 m5  push-m1" >
+                      <div class="card">
+                        <div class="card-image  ">
+                          <img class="activator" width="370px" height="420px" src="images/people/2018/niha.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">B Sai Niharika</span>
+                          <p>Marketing</p>
+                        </div>
+                        <!-- <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="col s12 m5" >
+                      <div class="card">
+                        <div class="card-image  ">
+                          <img class="activator" width="370px" height="420px" src="images/people/2018/sud.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Dharam Sudeep</span>
+                          <p>Graphic Geek</p>
+                        </div>
+                        <!-- <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="col s12 m5  push-m1" >
+                        <div class="card">
+                          <div class="card-image  ">
+                            <img class="activator" width="370px" height="420px" src="images/people/2018/raja.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">G Sai Raja</span>
+                            <p>Graphic Geek</p>
+                          </div>
+                          <!-- <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                          </div> -->
+                        </div>
+                      </div>
+                      <div class="col s12 m5" >
+                        <div class="card">
+                          <div class="card-image  ">
+                            <img class="activator" width="370px" height="420px" src="images/people/2018/nop.jpg">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">P. Srikar</span>
+                            <p>Tech. Director</p>
+                          </div>
+                          <!-- <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                          </div> -->
+                        </div>
+                      </div>
+                      <div class="col s12 m5  push-m1" >
+                          <div class="card">
+                            <div class="card-image  ">
+                              <img class="activator" width="370px" height="420px" src="images/people/2018/tar.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">K. Tarun</span>
+                              <p>Tech. Director</p>
+                            </div>
+                            <!-- <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div> -->
+                          </div>
+                        </div>
+
+
+
+
+</div>
+</div>
+<div class="scrollspy section" id="a2018">
+  <div class="row center">
+    <br /><h4>Student Body in 2017-18</h4><br />
+  <p>  <b>Co ordinator</b> Dr K Madhavi </p>
+    <b><p>Faculty Advisors</p></b>
+    <ul>
+      <li>Padma Vijetha Dev</li>
+      <li>Sri Laxmi</li>
+      <li>Krishna Madhuri</li>
+    </ul>
+    <p>
+      <b>Core Committee Members</b></p>
+      <ul>
+        <li> Rachana Thota </li>
+        <li> Sai Teja</li>
+        <li>Madishetty Maniraj</li>
+        <li>Bomma Rachana Reddy</li>
+        <li>SaiNath</li>
+        <li>Tarun</li>
+        <li>Mrinali</li>
+        <li>Kiranmayee Indraganti</li>
+        <li>Sai Datta</li>
+        <li>Amini Krishna</li>
+        <li>Vyshnavi Sagar</li>
+      </ul>
+    </div>
+  </div>
+<div class="scrollspy section" id="a2017">
+<div class="row center">
+  <br /><h4>Student body in 2016-17</h4><br />
+    Enter names here
+</div>
+</div>
+</div>
+<!--
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A Website by CSI SB @ GRIET</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+   -->
+<!--
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer> -->
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
